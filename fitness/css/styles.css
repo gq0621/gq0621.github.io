@@ -156,6 +156,33 @@ footer p a {
     text-decoration: none;
 }
 
+@media screen and (min-width: 630px){
+    .tablet-desktop{
+    display: block; 
+
+    }
+    .mobile{   
+     display: none;
+    }
+    header {
+        position: static;
+        padding-bottom: 2%;
+    }
+
+    nav li{
+        border-top:none;
+        display: inline-block;
+        border-right: 1px solid #fff;
+    }
+
+    nav li: last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        padding: 0.1em 0.75em;
+    }
+}
 
 /* #exercises {
     clear: left;
